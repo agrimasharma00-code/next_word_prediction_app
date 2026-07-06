@@ -23,12 +23,3 @@ streamlit run app.py
 - The app expects all model files to stay in the project root.
 - Use `streamlit run app.py` instead of `python app.py`.
 
-## Deploy on Streamlit Cloud
-
-1. Push this repo to GitHub.
-2. Go to Streamlit Community Cloud and create a new app.
-3. Select this repository.
-4. Set the main file path to `app.py`.
-5. Deploy.
-
-Streamlit will give you a public app URL after deployment.
