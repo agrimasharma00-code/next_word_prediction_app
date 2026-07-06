@@ -4,6 +4,8 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
+st.set_page_config(page_title="Next Word Prediction", layout="centered")
+
 # ------------------------------
 # Load saved files
 # ------------------------------
@@ -36,8 +38,6 @@ def predict_next_word(text):
 # ------------------------------
 # Streamlit UI
 # ------------------------------
-st.set_page_config(page_title="Next Word Prediction", layout="centered")
-
 st.title("🧠 Next Word Prediction (LSTM)")
 st.write("Enter a sentence and the model will predict the **next word**.")
 
