@@ -23,3 +23,13 @@ streamlit run app.py
 - The app expects all model files to stay in the project root.
 - Use `streamlit run app.py` instead of `python app.py`.
 
+## Deploy on Streamlit Cloud
+
+1. Push this repo to GitHub.
+2. Open Streamlit Community Cloud and create a new app.
+3. Select this repository and set the main file path to `app.py`.
+4. In Advanced settings, set the Python version to 3.12.
+5. Deploy.
+
+TensorFlow does not provide wheels for Python 3.14, so the app will fail to install if Streamlit Cloud uses its newer default Python version.
+
